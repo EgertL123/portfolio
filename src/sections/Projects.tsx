@@ -2,7 +2,7 @@ import { projects } from '../data/projects';
 
 function Projects() {
     return (
-        <section id="projects" className="min-h-screen flex items-center justify-center px-8 md:px-16 lg:px-24">
+        <section id="projects" className="min-h-screen flex items-center justify-center px-4 md:px-16 lg:px-24">
             <div className="max-w-6xl w-full">
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold my-12 text-center md:text-left bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
                     Projects
@@ -17,17 +17,17 @@ function Projects() {
                                     : 'bg-gray-800/50 border-gray-700/50 hover:bg-gray-800/70 hover:border-gray-600'
                             }`}
                         >
-                            <div className="flex items-start justify-between mb-4">
-                                <h3 className="text-2xl font-bold text-white">{project.title}</h3>
+                            <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between mb-4 gap-2">
+                                <h3 className="text-2xl font-bold text-white text-center md:text-left">{project.title}</h3>
                                 {project.inProgress && (
                                     <span className="px-3 py-1 text-xs font-semibold rounded-full bg-yellow-500/20 text-yellow-400 border border-yellow-500/30">
                                         In Progress
                                     </span>
                                 )}
                             </div>
-                            <p className="text-gray-400 mb-4">{project.description}</p>
+                            <p className="text-gray-400 mb-4 text-center md:text-left">{project.description}</p>
                             {project.technologies && (
-                                <div className="flex flex-wrap gap-2 mb-4">
+                                <div className="flex flex-wrap gap-2 mb-4 justify-center md:justify-start">
                                     {project.technologies.map((tech, techIndex) => (
                                         <span
                                             key={techIndex}
@@ -38,8 +38,8 @@ function Projects() {
                                     ))}
                                 </div>
                             )}
-                            {(project.link || project.github) && (
-                                <div className="flex gap-4">
+                            {(project.link) && (
+                                <div className="flex gap-4 justify-center md:justify-start">
                                     {project.link && (
                                         <a
                                             href={project.link}

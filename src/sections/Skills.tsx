@@ -2,7 +2,7 @@ import { skills } from '../data/skills';
 
 function Skills() {
     return (
-        <section id="skills" className="min-h-screen flex items-center justify-center px-8 md:px-16 lg:px-24">
+        <section id="skills" className="min-h-screen flex items-center justify-center px-4 md:px-16 lg:px-24">
             <div className="max-w-6xl w-full">
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-center md:text-left bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
                     Skills

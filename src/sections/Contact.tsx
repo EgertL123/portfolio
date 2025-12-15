@@ -4,7 +4,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Contact() {
     return (
-        <section id="contact" className="min-h-screen flex items-center justify-center px-8 md:px-16 lg:px-24">
+        <section id="contact" className="min-h-screen flex items-center justify-center px-4 md:px-16 lg:px-24">
             <div className="max-w-6xl w-full text-center">
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-12 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
                     Contact Me

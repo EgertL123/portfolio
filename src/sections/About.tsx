@@ -1,6 +1,6 @@
 function About() {
     return (
-        <section id="about" className="min-h-screen flex items-center justify-center px-8 md:px-16 lg:px-24">
+        <section id="about" className="min-h-screen flex items-center justify-center px-4 sm:px-8 md:px-16 lg:px-24">
             <div className="max-w-6xl w-full">
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-center md:text-left bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
                     About Me

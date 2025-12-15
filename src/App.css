@@ -76,7 +76,10 @@
   border: none;
   cursor: pointer;
   padding: 0;
+  position: relative;
+  z-index: 1001;
 }
+
 
 .hamburger span {
   width: 25px;
@@ -105,7 +108,7 @@
   }
 
   .nav-links.active {
-    top: 60px;
+    top: 5px;
   }
 
   .nav-links li {
