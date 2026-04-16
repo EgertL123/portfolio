@@ -8,7 +8,8 @@ import {
     SiMariadb,
     SiMongodb,
     SiPhp,
-    SiMysql
+    SiMysql,
+    SiSupabase
 } from 'react-icons/si';
 import { FaJava } from 'react-icons/fa';
 import type { IconType } from 'react-icons';
@@ -29,5 +30,6 @@ export const skills: Skill[] = [
     { name: 'MariaDB', icon: SiMariadb },
     { name: 'MongoDB', icon: SiMongodb },
     { name: 'PHP', icon: SiPhp },
-    { name: 'MySQL', icon: SiMysql }
+    { name: 'MySQL', icon: SiMysql },
+    { name: 'Supabase', icon: SiSupabase }
 ];

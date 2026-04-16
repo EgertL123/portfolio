@@ -3,11 +3,15 @@ export interface Project {
     description: string;
     technologies?: string[];
     link?: string;
-    github?: string;
     inProgress?: boolean;
 }
 
 export const projects: Project[] = [
+    {
+        title: 'Tunershop Sales',
+        description: 'A web application specifically made for an ingame company named Tunershop where affiliated users can manage their sales. Project features authentication via Discord and realtime updates to tables.',
+        technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Supabase'],
+    },
     {
         title: 'VOCO Bingo',
         description: 'Simple bingo game about basic knowledge of IT terms that was brought to life by a team of 4.',
@@ -19,7 +23,6 @@ export const projects: Project[] = [
         description: 'A mobile app that lets you track your daily steps and cooperate with friends to defeat bosses.',
         technologies: ['React Native', 'TypeScript', 'Supabase', 'Tailwind CSS'],
         link: 'https://github.com/CarlRobertMots/PACE',
-        inProgress: true,
     },
     {
         title: 'CRUD Operation',

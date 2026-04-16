@@ -14,7 +14,7 @@ function Projects() {
                             className={`p-6 rounded-lg border transition-all duration-300 ${
                                 project.inProgress
                                     ? 'bg-yellow-500/10 border-yellow-500/30 hover:bg-yellow-500/20 hover:border-yellow-400'
-                                    : 'bg-gray-800/50 border-gray-700/50 hover:bg-gray-800/70 hover:border-gray-600'
+                                    : 'bg-gray-800/50 border-gray-700 hover:bg-gray-800/70 hover:border-blue-400'
                             }`}
                         >
                             <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between mb-4 gap-2">
