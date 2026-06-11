@@ -11,6 +11,7 @@ export const projects: Project[] = [
         title: 'Tunershop Sales',
         description: 'A web application specifically made for an ingame company named Tunershop where affiliated users can manage their sales. Project features authentication via Discord and realtime updates to tables.',
         technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Supabase'],
+        link: 'https://github.com/EgertL123/tunershop-sales',
     },
     {
         title: 'VOCO Bingo',

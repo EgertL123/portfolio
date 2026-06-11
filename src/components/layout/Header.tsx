@@ -24,6 +24,7 @@ function Header() {
                 <li className="mx-2"><a href="#home" onClick={(e) => handleNavClick(e, 'home')}>Home</a></li>
                 <li className="mx-2"><a href="#about" onClick={(e) => handleNavClick(e, 'about')}>About</a></li>
                 <li className="mx-2"><a href="#skills" onClick={(e) => handleNavClick(e, 'skills')}>Skills</a></li>
+                <li className="mx-2"><a href="#experience" onClick={(e) => handleNavClick(e, 'experience')}>Experience</a></li>
                 <li className="mx-2"><a href="#projects" onClick={(e) => handleNavClick(e, 'projects')}>Projects</a></li>
                 <li className="mx-2"><a href="#contact" onClick={(e) => handleNavClick(e, 'contact')}>Contact</a></li>
             </ul>
