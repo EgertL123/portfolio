@@ -1,7 +1,7 @@
 export interface Experience {
     company: string;
     position: string;
-    period: string; // e.g., "Jan 2023 - Dec 2023"
+    period: string;
     description: string;
     technologies?: string[];
     location?: string;

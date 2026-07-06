@@ -14,7 +14,7 @@ function Contact() {
                 </p>
                 <div className="flex justify-center gap-8">
                     <a
-                        href="mailto:egert.linnas@voco.ee"
+                        href="mailto:linnasegert@gmail.com"
                         className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-red-500/20 border border-red-500/30 flex items-center justify-center hover:bg-red-500/30 hover:border-red-400 transition-all duration-300"
                         aria-label="Email"
                     >

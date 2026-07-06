@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot, faCalendar } from '@fortawesome/free-solid-svg-icons';
 import { experiences } from '../data/experience';
 
 function Experience() {
@@ -28,9 +30,15 @@ function Experience() {
                                     </span>
                                 )}
                             </div>
-                            <p className="text-gray-400 text-sm mb-2 text-center">{exp.period}</p>
+                            <div className="flex items-center justify-center gap-2 mb-2 text-md text-gray-400">
+                                <FontAwesomeIcon icon={faCalendar} className="text-blue-400" />
+                                <p>{exp.period}</p>
+                            </div>
                             {exp.location && (
-                                <p className="text-gray-500 text-sm mb-4 text-center">{exp.location}</p>
+                                <div className="flex items-center justify-center gap-2 mb-4 text-md text-gray-500">
+                                    <FontAwesomeIcon icon={faLocationDot} className="text-blue-400" />
+                                    <p>{exp.location}</p>
+                                </div>
                             )}
                             <p className="text-gray-300 mb-4 text-center">{exp.description}</p>
                             {exp.technologies && (
