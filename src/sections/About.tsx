@@ -7,7 +7,7 @@ function About() {
                 </h2>
                 <div>
                     <p className="text-lg md:text-xl text-gray-300 leading-relaxed text-center md:text-left">
-                        In 2023, I graduated Luunja Secondary School with a letter of accomodation, after graduating I served in the Estonian Defence Forces for 8 months. Since I have had an interest for computers and software development for a very long time, I figured it would be the perfect job to do, so in 2024 summer I applied to study at Tartu Vocational College to become a junior software developer. I am a hard-working, responsible person with great attention to detail. I enjoy spending my free time working out or behind the computer, playing games and learning coding through different websites.
+                        In 2023, I graduated Luunja Secondary School with a letter of accomodation, after graduating I served in the Estonian Defence Forces for 8 months. Since I have had an interest for computers and software development for a very long time, I figured it would be the perfect job to do, so in 2024 I applied to study at Tartu Vocational College to become a junior software developer. I am a hard-working, responsible person with great attention to detail. I enjoy spending my free time working out or behind the computer, playing video games and learning coding through different websites. I also like to read books and play chess from time to time.
                     </p>
                 </div>
             </div>

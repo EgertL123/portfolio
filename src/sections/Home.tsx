@@ -9,7 +9,7 @@ function Home() {
                     </span>
                 </h1>
                 <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-300 leading-relaxed">
-                    I am a 21-year-old student, currently studying at Tartu Vocational College to become a junior software developer
+                    I am a 21-year-old junior software developer
                 </h2>
             </div>
         </section>
