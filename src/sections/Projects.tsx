@@ -4,7 +4,7 @@ function Projects() {
     return (
         <section id="projects" className="min-h-screen flex items-center justify-center px-4 md:px-16 lg:px-24">
             <div className="max-w-6xl w-full">
-                <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold my-12 text-center md:text-left bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold my-12 text-center md:text-left bg-clip-text text-blue-400">
                     Projects
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
